@@ -3,8 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Registration Form</title>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <hr>
 </head>
+<form action="actionpage">
+    <div>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Enter your Full Name">
+    </div>
+    <br>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" placeholder="Enter valid email address">
+    </div>
+    <br>
+    <div>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" maxlength="12" placeholder="Enter Password">
+    </div>
+    <br>
+    <div>
+        Gender: <input type="radio" name="Gender"> Male <input type="radio" name="Gender"> Female <input type="radio" name="Gender"> Others
+    </div>
+    <br>
+    <div>
+        <label for="cr">Course:</label>
+        <select name="Course" id="cr">
+            <option value="select Course">--Select Course--</option>
+            <option value="Cse">Cse</option>
+            <option value="AI/ml">AI/ml</option>
+            <option value="Data science">Data science</option>
+            <option value="Cyber security">Cyber security</option>
+        </select>
+    </div>
+</form>
 <body>
     
 </body>
