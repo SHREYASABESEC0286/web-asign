@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <hr>
+<style>
+    textarea{
+        width: 350px;
+        height: 75px;
+        padding: 10px;
+        resize: vertical;
+    }
+</style>
+</head>
+<form action="actionpage">
+    <div>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Enter your Full Name">
+    </div>
+    <br>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" placeholder="Enter valid email address">
+    </div>
+    <br>
+    <div>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" maxlength="12" placeholder="Enter Password">
+    </div>
+    <br>
+    <div>
+        Gender: <input type="radio" name="Gender"> Male <input type="radio" name="Gender"> Female <input type="radio" name="Gender"> Others
+    </div>
+    <br>
+    <div>
+        <label for="cr">Course:</label>
+        <select name="Course" id="cr">
+            <option value="select Course">--Select Course--</option>
+            <option value="Cse">Cse</option>
+            <option value="AI/ml">AI/ml</option>
+            <option value="Data science">Data science</option>
+            <option value="Cyber security">Cyber security</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="cno">Contact No. :</label>
+        <input type="text" placeholder="Enter your number" maxlength="10">
+    </div>
+    <br>
+    <div>
+        <label for="Add">Address:</label><br>
+        <textarea name="Address" id="Add" placeholder="Enter your address.."></textarea>
+    </div>
+    <div>
+        <label for="reg"></label>
+        <input type="submit" id="reg" value="Register">
+        <label for="clr"></label>
+        <input type="reset" id="clr" value="Clear">
+    </div>
+    <hr>
+    <p style="text-align: center;">&copy; 2025 Student Registration Portal</p>
+</form>
+<body>
+    
+</body>
+</html>
