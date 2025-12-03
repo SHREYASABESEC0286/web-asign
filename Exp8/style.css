@@ -3,3 +3,18 @@ body{
     font-family: Arial, sans-serif;
     margin: 20px;
 }
+.container{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    flex-direction: row;
+    gap: 40px;
+    padding: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    
+}
