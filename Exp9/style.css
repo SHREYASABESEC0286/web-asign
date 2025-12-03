@@ -36,3 +36,16 @@ products{
     color: green;
     margin-bottom: 15px;
 }
+.card button {
+    background: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+.card button:hover {
+    background: #0056b3;
+}
