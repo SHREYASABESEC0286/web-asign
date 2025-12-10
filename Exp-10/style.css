@@ -16,6 +16,25 @@ nav{
     padding: 10px 0;
     text-align: center;
 }
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2vw;
+    background-color: #232f3e;
+    color: white;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 nav a{
     color: #ffffff;
     margin: 0 15px;
@@ -42,3 +61,6 @@ footer{
     width: 100%;
     bottom: 0;
 }
+.menu-btn {
+    display: block;
+    cursor: pointer;}
