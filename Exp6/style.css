@@ -10,7 +10,7 @@ body{
             margin-bottom: 30px;
             text-align: center;
         }
-            .product-box{
+        .product-box{
             width: 300px;
             border: 2px solid black;
             margin: 0 auto;
@@ -49,6 +49,6 @@ body{
 
         }
         button:hover{
-            background-color: rgb(122, 15, 168);
+            background-color : rgb(122, 15, 168);
             animation: hoverEffect 0.3s forwards;
         }
