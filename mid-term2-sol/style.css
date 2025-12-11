@@ -10,3 +10,12 @@ body{
             margin-bottom: 30px;
             text-align: center;
         }
+        .product-box{
+            width: 300px;
+            border: 2px solid black;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: rgb(56, 175, 175);
+            border-radius: 8px;
+            text-align: center;
+        }
