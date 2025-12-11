@@ -5,3 +5,8 @@ body{
             align-items: center;
             margin: auto;
         }
+        h1{
+            color: rgb(163, 230, 8);
+            margin-bottom: 30px;
+            text-align: center;
+        }
