@@ -33,3 +33,18 @@ body{
             font-weight: bold;
             margin: 15px 0;
         }
+        .price{
+            font-size: 20px;
+            font-weight: bold;
+            color: green;
+        }
+        button{
+            padding: 10px 20px;
+            background-color: blueviolet;
+            color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px 15px;
+            cursor: pointer;
+
+        }
